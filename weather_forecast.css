@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    background-color: lightskyblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+#boxContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    height: 50px;
+    font-size: 20px;
+    border : none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 0 15px;
+}
+
+#submit{
+    background-color: mediumblue;
+    color: white;
+}
